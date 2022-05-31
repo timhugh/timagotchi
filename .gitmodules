@@ -1,0 +1,3 @@
+[submodule "timagotchi-pcb/libraries/ProMicro"]
+	path = timagotchi-pcb/libraries/ProMicro
+	url = https://github.com/Biacco42/ProMicroKiCad.git
