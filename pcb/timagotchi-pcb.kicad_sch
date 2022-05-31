@@ -269,58 +269,6 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+BATT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -553,7 +501,6 @@
     )
   )
 
-
   (junction (at 83.185 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 4439d4ff-66c1-4c3f-9183-8535e1e89b6f)
   )
@@ -730,22 +677,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 63ebf61e-80c5-43c3-a915-6c318385ae09))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 106.68 111.76 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 13171f30-b0b6-45c3-a90e-f90091f5761a)
-    (property "Reference" "#PWR013" (id 0) (at 106.68 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 106.68 116.84 0))
-    (property "Footprint" "" (id 2) (at 106.68 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 106.68 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c93349c4-daf6-4883-834f-d76e1946b166))
   )
 
   (symbol (lib_id "Device:R") (at 100.965 73.66 180) (unit 1)
@@ -1096,6 +1027,24 @@
     (pin "1" (uuid 69dd93af-3eab-403a-be16-e69657d347cb))
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 120.65 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid b258beff-21a6-4047-b135-54bb1952210f)
+    (property "Reference" "#FLG0101" (id 0) (at 118.745 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 116.84 96.5199 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 120.65 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 120.65 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd4923e8-9040-4199-bea3-47ed72d86803))
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 111.76 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b621c2a4-7289-450d-a9fb-58421246fa11)
@@ -1109,6 +1058,22 @@
     )
     (pin "1" (uuid 18d94912-28dc-4327-92ab-7dbeb043368a))
     (pin "2" (uuid ba3a01e1-c6b7-4ea8-b126-88867c9db877))
+  )
+
+  (symbol (lib_id "power:VCC") (at 106.68 111.76 180) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid b6e3d76e-c56a-471c-922c-7e3334a163d0)
+    (property "Reference" "#PWR0101" (id 0) (at 106.68 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (id 1) (at 106.68 116.84 0))
+    (property "Footprint" "" (id 2) (at 106.68 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 106.68 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f381e7cb-a715-4db6-baa2-991f8be2e4bc))
   )
 
   (symbol (lib_id "power:-BATT") (at 124.46 121.285 180) (unit 1)
@@ -1161,24 +1126,6 @@
     (pin "1" (uuid e18ac9cc-278e-4aae-8624-47207906d0bb))
   )
 
-  (symbol (lib_id "power:+3.3V") (at 120.65 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f5e39e67-7f99-44fe-bcad-7a58d93a6b20)
-    (property "Reference" "#PWR07" (id 0) (at 124.46 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 116.84 96.5199 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 120.65 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 120.65 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 768cb286-b479-4776-a7ba-128c11fb096a))
-  )
-
   (symbol (lib_id "SSD1306-128x64_OLED:SSD1306") (at 191.77 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f641e724-f6c6-4cc1-9573-a10a2c206448)
@@ -1211,6 +1158,9 @@
     (path "/663eb0c5-abd8-4c3b-aa08-c370846fcb42"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/b258beff-21a6-4047-b135-54bb1952210f"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/ea4f8155-bb3d-45e0-94b0-ce6059436d00"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -1229,9 +1179,6 @@
     (path "/0619476e-337c-4d1b-bd81-62c0bdb2706d"
       (reference "#PWR06") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/f5e39e67-7f99-44fe-bcad-7a58d93a6b20"
-      (reference "#PWR07") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/9db3a35b-5234-4c91-bad4-e488926b30db"
       (reference "#PWR08") (unit 1) (value "VCC") (footprint "")
     )
@@ -1247,14 +1194,14 @@
     (path "/9de10913-f1c8-4687-9e3e-7dd3085c5281"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
-    (path "/13171f30-b0b6-45c3-a90e-f90091f5761a"
-      (reference "#PWR013") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/c00190dc-5154-4ae0-afa2-421e4cfffcf8"
       (reference "#PWR014") (unit 1) (value "-BATT") (footprint "")
     )
     (path "/225e71fa-e9c2-427e-9477-1db6f9201dc3"
       (reference "#PWR015") (unit 1) (value "+BATT") (footprint "")
+    )
+    (path "/b6e3d76e-c56a-471c-922c-7e3334a163d0"
+      (reference "#PWR0101") (unit 1) (value "VCC") (footprint "")
     )
     (path "/f641e724-f6c6-4cc1-9573-a10a2c206448"
       (reference "Brd1") (unit 1) (value "SSD1306") (footprint "Display:Adafruit_SSD1306_No_Mounting_Holes")
