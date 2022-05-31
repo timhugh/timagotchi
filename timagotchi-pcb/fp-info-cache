@@ -1,4 +1,39 @@
-20159830518961232
+20169754428220762
+Arduino
+Arduino_Micro
+Arduino Micro
+Arduino Micro
+0
+34
+34
+Arduino
+Arduino_Nano
+Arduino Nano
+Arduino Nano
+0
+30
+30
+Arduino
+Arduino_Nano_Every
+Arduino Nano Every
+Arduino Nano Every
+0
+30
+30
+Arduino
+Arduino_Pro_Mini
+Arduino Pro Mini
+Arduino Pro Mini
+0
+28
+28
+Arduino
+Sparkfun_Pro_Micro
+Sparkfun Pro Micro
+Arduino Sparkfun Pro Micro
+0
+24
+24
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78622,6 +78657,13 @@ Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular dril
 rotary encoder
 0
 5
+4
+SSD1306
+128x64OLED
+
+
+0
+4
 4
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
