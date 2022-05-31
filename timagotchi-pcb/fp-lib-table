@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SSD1306")(type "KiCad")(uri "${KIPRJMOD}/libraries/ssd1306/library/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/libraries/lib-arduino/Arduino.pretty")(options "")(descr ""))
+)
