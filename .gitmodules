@@ -1,6 +1,6 @@
-[submodule "timagotchi-pcb/libraries/ssd1306"]
-	path = timagotchi-pcb/libraries/ssd1306
+[submodule "pcb/libraries/ssd1306"]
+	path = pcb/libraries/ssd1306
 	url = https://github.com/pforrmi/KiCad-SSD1306-128x64.git
-[submodule "timagotchi-pcb/libraries/lib-arduino"]
-	path = timagotchi-pcb/libraries/lib-arduino
+[submodule "pcb/libraries/lib-arduino"]
+	path = pcb/libraries/lib-arduino
 	url = https://github.com/g200kg/kicad-lib-arduino.git
