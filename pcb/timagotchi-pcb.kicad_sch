@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "\"Timagotchi\"")
+    (date "2022-05-31")
+    (rev "v2")
+  )
+
   (lib_symbols
     (symbol "Arduino:Sparkfun_Pro_Micro" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -8.89 21.59 0)
@@ -685,7 +691,7 @@
     (property "Reference" "R2" (id 0) (at 103.505 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (id 1) (at 100.965 71.755 90)
+    (property "Value" "3.3k" (id 1) (at 100.965 71.755 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 102.743 73.66 90)
@@ -738,7 +744,7 @@
     (property "Reference" "R1" (id 0) (at 85.725 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (id 1) (at 83.185 71.755 90)
+    (property "Value" "3.3k" (id 1) (at 83.185 71.755 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 84.963 73.66 90)
@@ -775,7 +781,7 @@
     (property "Reference" "R3" (id 0) (at 121.285 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (id 1) (at 118.745 71.755 90)
+    (property "Value" "3.3k" (id 1) (at 118.745 71.755 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 120.523 73.66 90)
@@ -825,7 +831,7 @@
     (property "Reference" "R4" (id 0) (at 109.22 106.68 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5k" (id 1) (at 106.68 106.045 90)
+    (property "Value" "3.3k" (id 1) (at 106.68 106.045 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 108.458 107.95 90)
@@ -1207,16 +1213,16 @@
       (reference "Brd1") (unit 1) (value "SSD1306") (footprint "Display:Adafruit_SSD1306_No_Mounting_Holes")
     )
     (path "/2c87f91d-a402-409c-b983-29ada36b1ee8"
-      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R1") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/14050b08-6e5e-4822-9c75-fd99029152db"
-      (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R2") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/39457c37-2387-400b-b450-0cfa75ee2254"
-      (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R3") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4c75cda5-afbb-4d0c-962d-0a937dfefcf6"
-      (reference "R4") (unit 1) (value "5k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R4") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4bd3ee5a-144d-43a0-809a-ca35e01fbc3a"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_THT:SW_PUSH_6mm")
